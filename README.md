@@ -1,5 +1,9 @@
-A simple node.js lib to authenticate against an LDAP server.
+Fork of [node-ldapauth](https://github.com/trentm/node-ldapauth) - A simple node.js lib to authenticate against an LDAP server.
 
+## About the fork
+
+This fork was created to update version of bcrypt dependency to 0.7.8, which does not require to have OpenSSL installed.
+(Also the ldapjs dependecy's url was changed (https instead of ssl) to work behind proxy.)
 
 # Usage
 
